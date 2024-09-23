@@ -1,0 +1,101 @@
+.footer {
+  padding: 32px 20px 0px 20px;
+  border-top: 1px solid #000;
+  width: calc(
+    100% - 40px
+  ); 
+  margin: 0 20px; 
+}
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footerLeft {
+  display: flex;
+  gap: 40px;
+}
+
+.footerSection h4 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.footerSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerSection ul li {
+  margin-bottom: 5px;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  padding-block: 4px;
+}
+
+.footerSection ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footerSection ul li a:hover {
+  text-decoration: underline;
+}
+
+.footerRight {
+  max-width: 400px; 
+}
+
+.footerMap {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.footerBottom {
+  text-align: center;
+}
+
+.footerBottom h4 {
+  margin-bottom: 10px;
+}
+
+.footerBottom input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #e5e7eb;
+}
+
+.footerBottom button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0a84ff;
+  color: white;
+  cursor: pointer;
+}
+
+.footerBottom button:hover {
+  background-color: #777;
+}
+
+@media only screen and (max-width: 640px) {
+  .footer {
+    margin: 0;
+    width: 100%;
+  }
+  .footerLeft {
+    display: flex;
+    font-size: smaller;
+  }
+  .footerTop {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
